@@ -64,11 +64,10 @@ Key contributions:
 
 ```bash
 # Clone repository
-git clone https://github.com/yourname/research-automation.git
-cd research-automation
+git clone https://github.com/Zhangkanghao11/Multi-Agent
 
 # Install dependencies
-pip install -r requirements.txt
+pip install -r environment.yml
 
 # Step 1: Build embeddings from literature
 python step1.py
@@ -78,6 +77,9 @@ python step2.py
 
 # Step 3: Multi-agent review & iterative refinement
 python step3.py
+
+# Step 4: Mermaid Figure
+python step4.py
 
 # Fine-tune model with LoRA (optional)
 python fine_tune.py
